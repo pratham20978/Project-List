@@ -13,9 +13,9 @@ const Form = () => {
             method: "POST", headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
         })
-        // let res = await r.text()
-        // console.log(data, res);
-        //tostify
+        let res = await r.text()
+        console.log(data, res);
+        
 
     }
     return (
@@ -31,25 +31,25 @@ const Form = () => {
                         <input
                             className="bg-gray-900 text-white p-3 px-4 rounded-md border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
                             type="text"
-                            {...register("input1")}
+                            {...register("Name")}
                             placeholder="Full Name"
                         />
                         <input
                             className="bg-gray-900 text-white p-3 px-4 rounded-md border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
                             type="email"
-                            {...register("input2")}
+                            {...register("Email")}
                             placeholder="Email Address"
                         />
                         <input
                             className="bg-gray-900 text-white p-3 px-4 rounded-md border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
                             type="tel"
-                            {...register("input3")}
+                            {...register("Contact")}
                             placeholder="Mobile Number"
                         />
                         <input
                             className="bg-gray-900 text-white p-3 px-4 rounded-md border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
                             type="text"
-                            {...register("input4")}
+                            {...register("City")}
                             placeholder="Area, City"
                         />
                         <button

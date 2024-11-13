@@ -22,9 +22,9 @@ const Navbar = () => {
                         <li className='cursor-pointer text-slate-700 font-bold'>About Project</li>
                         <li className='cursor-pointer text-slate-700 font-bold'>Contact</li>
                     </ul>
-                    <div className="cursor-pointer button bg-orange-600 p-3 rounded-lg px-7">
-                    <Link to="/admin"><button className='text-white font-bold text-xl'>CONNECT</button></Link>
-                    </div>
+                    <Link to="/admin"><div className="cursor-pointer button bg-orange-600 p-3 rounded-lg px-7">
+                    <button className='text-white font-bold text-xl'>CONNECT</button>
+                    </div></Link>
                 </div>
             </div>
         </div>

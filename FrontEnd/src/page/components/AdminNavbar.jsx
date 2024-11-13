@@ -23,9 +23,9 @@ const AdminNavbar = () => {
                         <li className='cursor-pointer text-slate-700 font-bold'>About Project</li>
                         <li className='cursor-pointer text-slate-700 font-bold'>Contact</li>
                     </ul>
-                    <div className="cursor-pointer button bg-orange-600 p-3 rounded-lg px-7">
-                        <button className='text-white font-bold text-xl'><Link to="/">Landing</Link></button>
-                    </div>
+                    <Link to="/"><div className="cursor-pointer button bg-orange-600 p-3 rounded-lg px-7">
+                        <button className='text-white font-bold text-xl'>Landing</button>
+                    </div></Link>
                 </div>
             </div>
         </div>

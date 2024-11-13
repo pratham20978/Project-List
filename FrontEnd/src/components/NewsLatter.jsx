@@ -26,7 +26,7 @@ const NewsLatter = () => {
                 <input
                     className="flex-grow p-3 px-4 border-2 border-transparent focus:border-white placeholder-opacity-100 placeholder:text-lg placeholder:text-white placeholder:font-semibold bg-blue-400 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-white"
                     type="email"
-                    {...register("input", { required: true })}
+                    {...register("Email", { required: true })}
                     placeholder="Enter your email"
                 />
                 <button
